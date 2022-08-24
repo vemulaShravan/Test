@@ -10,8 +10,9 @@ function formOnLoad(executionContext) {
 
     // Code to run in the form OnLoad event
      {
+         //shravan github code merge
         var formContext = executionContext.getFormContext();
-
+         //shravan github code merge
         // display the form level notification as an INFO
         formContext.ui.setFormNotification(message, "INFO", myUniqueId);
 
